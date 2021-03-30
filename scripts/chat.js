@@ -65,20 +65,3 @@ class Chatroom {
 
 }
 
-const chatroom = new Chatroom('wax', 'shaun');
-
-
-
-setTimeout(() => {
-
-    chatroom.updateRoom('wax');
-
-    chatroom.updateName('snoop');
-
-    chatroom.getChats(data => {
-        console.log(data);
-    });
-
-    chatroom.addChat('hello!');
-
-}, 3000)
